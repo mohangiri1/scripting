@@ -1,3 +1,4 @@
-title: "My Documentation Site"
-theme: "jekyll-theme-cayman"
+title: "Fortran"
+theme: jekyll-theme-cayman
+source: docs
 
