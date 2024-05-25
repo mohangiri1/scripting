@@ -21,3 +21,15 @@
   text-decoration: none;
   color: #0366d6;
 }
+code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  font-family: monospace;
+}
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
