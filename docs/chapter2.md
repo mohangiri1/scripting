@@ -4,7 +4,6 @@ title: Bisection
 ---
 # Roots: Bisection Method
 
-[![Final video of fixing issues in your code in VS Code](https://img.youtube.com/vi/JLMbpiywVxQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=JLMbpiywVxQ)
-
-{% include youtube.html id="JLMbpiywVxQ" %} 
+Watch the full tutorial video:
+{% include youtube.html id="R_GF0jJ4s60" %} 
 
