@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Getting Started
+title: Bisection
 ---
-# Chapter 2: Getting Started
+# Roots: Bisection Method
 
-This is the content for the first chapter.
+{% raw %} {% include youtube.html id="JLMbpiywVxQ" %}
+{% endraw %}
+{% include youtube.html id="JLMbpiywVxQ" %}
 
