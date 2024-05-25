@@ -1,4 +1,7 @@
 title: "Fortran"
 theme: jekyll-theme-cayman
 source: docs
+markdown: kramdown
+highlighter: rouge
+
 
