@@ -23,8 +23,11 @@ To solve this equation, we need to find the function \( y(x) \) that satisfies t
 
 Next, we will delve into the detailed implementation of these methods.
 
+[Euler's Method](euler.md)
+
 [Simpson's One-Third Rule](simpson.md)
 
 [Runge-Kutta Second Order](rk2.md)
 
 [Runge-Kutta Fourth Order](rk4.md)
+
