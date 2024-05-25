@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Runge Kutta Method: Second Order
+title: Runge Kutta Method Second Order
 ---
 
 # Runge Kutta Method: Second Order
