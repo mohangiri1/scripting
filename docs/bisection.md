@@ -45,11 +45,11 @@ The function `f(x)` is defined within the program. You can modify this function 
 
 1. **Modify the Function**: Update the `f(x)` function in `bisection.f90` to represent the equation for which you want to find the root.
 2. **Compile the Program**: Use a Fortran compiler to compile the program:
-    ```sh
+    ```bash
     gfortran -o bisection bisection.f90
     ```
 3. **Run the Program**: Execute the compiled program:
-    ```sh
+    ```bash
     ./bisection
     ```
 4. **Provide Input**: Enter the initial interval, tolerance, and maximum iterations when prompted.
