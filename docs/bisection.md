@@ -122,4 +122,6 @@ Watch the full tutorial video:
 Link of the downloaded script file: [Examples Directory](https://github.com/mohangiri1/Fortran/tree/main/examples)
 
 # Resources:
-
+1. https://amsi.org.au/ESA_Senior_Years/SeniorTopic3/3j/3j_2content_1.html
+2. https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/10RootFinding/bisection/examples.html
+3. https://x-engineer.org/bisection-method/
