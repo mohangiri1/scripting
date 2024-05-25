@@ -3,7 +3,7 @@ layout: default
 title: Trapezoidal Rule
 ---
 
-# Trapezoidal
+# Trapezoidal Rule
 Watch the full tutorial video:
 {% include youtube.html id="ud3RQymhk0g" %}
 
