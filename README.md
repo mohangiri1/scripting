@@ -8,3 +8,6 @@ If you want to learn computational physics using Fortran, this could be an excel
 
 # Fortran script files download location:
 [https://github.com/mohangiri1/Fortran/tree/main/examples](https://github.com/mohangiri1/Fortran/tree/main/examples)
+
+# Youtube Playlist:
+[https://www.youtube.com/MohanGiri](https://www.youtube.com/watch?v=f1Vn6x1-6rI&list=PL7p7K-N4TmQsI7KgdyKyh19sXWTd8UC28&ab_channel=MohanGiri)
