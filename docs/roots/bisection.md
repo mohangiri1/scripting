@@ -128,3 +128,4 @@ Link of the downloaded script file: [Examples Directory](https://github.com/moha
 1. [https://amsi.org.au/ESA_Senior_Years/SeniorTopic3/3j/3j_2content_1.html](https://amsi.org.au/ESA_Senior_Years/SeniorTopic3/3j/3j_2content_1.html)
 2. [https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/10RootFinding/bisection/examples.html](https://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/10RootFinding/bisection/examples.html)
 3. [https://x-engineer.org/bisection-method/](https://x-engineer.org/bisection-method/)
+
