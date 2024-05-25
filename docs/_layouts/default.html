@@ -9,14 +9,6 @@
   <script src="{{ "/assets/js/toc.js" | relative_url }}" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll('pre code').forEach(function(block) {
-        const button = document.createElement('button');
-        button.className = 'btn-copy';
-        button.textContent = 'Copy';
-        button.setAttribute('data-clipboard-text', block.textContent);
-        block.parentNode.insertBefore(button, block);
-      });
-
       new ClipboardJS('.btn-copy');
     });
   </script>
