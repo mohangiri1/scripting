@@ -119,7 +119,9 @@ end program bisection
 ```
 
 Watch the full tutorial video:
-{% include youtube.html id="R_GF0jJ4s60" %} 
+{% include youtube.html id="R_GF0jJ4s60" %}
+
+
 Link of the downloaded script file: [Examples Directory](https://github.com/mohangiri1/Fortran/tree/main/examples)
 
 # Resources:
