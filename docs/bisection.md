@@ -116,6 +116,7 @@ program bisection
   print *, 'Number of iterations:', iter
 
 end program bisection
+```
 
 Watch the full tutorial video:
 {% include youtube.html id="R_GF0jJ4s60" %} 
