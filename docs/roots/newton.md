@@ -118,6 +118,7 @@ program newton_raphson
   print *, 'Number of iterations:', iter
 
 end program newton_raphson
+```
 
 
 Watch the full tutorial video:
