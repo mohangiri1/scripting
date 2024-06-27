@@ -4,7 +4,7 @@ title: Linux Basic commands
 ---
 
 # Basic Linux Commands
-
+Before Jumping in to the Bash scripting, Let us first start learning simple commands of linux.
 Linux is a powerful and versatile operating system that is widely used in various environments, from personal computers to servers. Here are some of the basic commands that are essential for working with Linux.
 
 ## Table of Contents
