@@ -59,3 +59,39 @@ get_square() {
 result=$(get_square 5)
 echo "Square of 5 is $result"  # Output: Square of 5 is 25
 ```
+## Using Local Variables
+Declare variables as local to restrict their scope to within the function:
+```bash
+process_file() {
+    local filename=$1
+    # Commands using $filename
+}
+```
+## Error Handling
+Functions can use exit to terminate with a specific status code:
+```bash
+validate_input() {
+    if [[ ! $1 ]]; then
+        echo "Error: Missing input"
+        exit 1
+    fi
+}
+
+validate_input "$user_input"
+```
+## Recursive Functions
+Bash supports recursive functions for tasks like factorial calculation:
+```bash
+factorial() {
+    if [[ $1 -le 1 ]]; then
+        echo 1
+    else
+        local val=$(( $1 - 1 ))
+        local result=$(factorial $val)
+        echo $(( $1 * $result ))
+    fi
+}
+
+result=$(factorial 5)
+echo "Factorial of 5 is $result"  # Output: Factorial of 5 is 120
+```
