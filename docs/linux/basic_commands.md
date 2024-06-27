@@ -69,13 +69,12 @@ rm filename
 
 	•	-r: Removes directories and their contents recursively.
 	•	-f: Forces removal without prompt.
-
- ## cp
+## cp
  The `cp` command copies files or directories.
- ```bash
+```bash
 cp source destination
 ```
-## Options:
+Options:
 
 	•	-r: Copies directories recursively.
 ## mv
@@ -90,6 +89,7 @@ The touch command creates an empty file or updates the timestamp of an existing 
 ```bash
 touch file_name
 ```
+# File Permissions
 ## chmod
 The `chmod` command changes file permissions.
 ```bash
