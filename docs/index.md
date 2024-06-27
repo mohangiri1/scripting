@@ -1,24 +1,83 @@
 ---
 layout: default
-title: Fortran Overview
+title: Bash Scripting Overview
 ---
 
-# Fortran Overview
+# Introduction to Bash Scripting
 
-Fortran, short for Formula Translation, is a high-level programming language that is particularly well-suited for numeric computation and scientific computing. It has been widely used in various domains such as climate modeling, computational physics, and engineering simulations. To run a Fortran program, you typically write your code in a file with a `.f90` extension and compile it using a Fortran compiler such as `gfortran`. You can automate this process using a script. For example, save the following "Hello, World!" program in a file named `hello.f90`:
+Bash scripting refers to the process of writing and executing scripts using the Bash shell (or "Bourne Again Shell"), which is the default command-line interpreter on most Unix-like operating systems, including Linux and macOS. Bash scripting allows users to automate repetitive tasks, create complex workflows, and enhance productivity by leveraging the power of the command line.
 
-```fortran
-program hello
-  print *, 'Hello, World!'
-end program hello
+## Basics of Scripting
+
+### 1. Shebang Line
+
+The shebang line is the first line of a Bash script and specifies the path to the Bash interpreter that should be used to execute the script. It's crucial for running the script as an executable.
+
+```bash
+#!/bin/bash
+```
+## Comments
+Comments in Bash scripts start with a # character and are used to annotate code, provide explanations, and improve readability.
+```bash
+# This is a comment
+```
+## Variables
+Variables in Bash are used to store data and can be accessed using the variable name preceded by a `$` symbol.
+```bash
+name="John"
+echo "Hello, $name!"
+```
+## Basic Input and Output
+Echo: Outputs text or variables to the terminal.
+```bash
+echo "Hello, World!"
+```
+## Read: 
+Reads input from the user and assigns it to a variable.
+```bash
+echo "Enter your name: "
+read name
+echo "Hello, $name!"
+```
+## Conditional Statements
+If-else: Executes a set of commands based on the result of a conditional expression.
+```bash
+if [[ condition ]]; then
+    # commands if condition is true
+else
+    # commands if condition is false
+fi
+```
+## Loops
+For Loop: Executes a set of commands for each item in a sequence.
+```bash
+for item in list; do
+    # commands using $item
+done
+```
+## While Loop: 
+Executes a set of commands as long as a condition is true.
+```bash
+while [[ condition ]]; do
+    # commands
+done
+```
+## Functions
+Functions in Bash allow you to group commands for reuse.
+```bash
+greet() {
+    echo "Hello, World!"
+}
+
+greet  # Call the function
 ```
 
-In order to run the gfortran script:
-```sh
-gfortran hello.f90 -o hello
-./hello
+## Exit Status
+Every command in Bash returns an exit status, which is a numeric value that represents the success or failure of the command. $? holds the exit status of the last executed command.
+```bash
+ls /path/to/nonexistent/directory
+echo "Exit status: $?"  # Output: Exit status: 2 (example of a non-zero exit status)
 ```
 
-# Agenda Here:
-We will try to solve few problems from physics and Mathematics using Fortran.
+
 
