@@ -16,3 +16,46 @@ function_name() {
     # Commands to be executed
     # inside the function
 }
+```
+## For Example
+```bash
+# Function without arguments
+greet() {
+    echo "Hello, World!"
+}
+
+# Function with arguments
+greet_person() {
+    local name=$1  # local variable within the function
+    echo "Hello, $name!"
+}
+```
+## Calling Functions
+You call a function by simply using its name followed by parentheses:
+```bash
+greet  # Calling greet function
+greet_person "Alice"  # Calling greet_person function with argument
+```
+## Function Arguments
+Functions can accept arguments just like scripts. These arguments are accessed using `$1`, `$2`, etc., inside the function:
+```bash
+greet_person() {
+    local name=$1
+    echo "Hello, $name!"
+}
+
+greet_person "Bob"  # Output: Hello, Bob!
+```
+
+## Returning Values
+Functions can return values using the return statement. The return value is stored in the special variable `$?`:
+```bash
+get_square() {
+    local num=$1
+    local square=$((num * num))
+    echo $square
+}
+
+result=$(get_square 5)
+echo "Square of 5 is $result"  # Output: Square of 5 is 25
+```
