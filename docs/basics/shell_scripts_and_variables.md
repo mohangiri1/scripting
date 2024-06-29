@@ -46,9 +46,8 @@ export environment_variable="I am an environment variable"
 echo $environment_variable
 ```
 ### Differences Between Local and Environment Variables
-
-	•	Scope: Local variables are confined to the shell session or script, while environment variables are available to any child processes.
-	•	Usage: Local variables are used for temporary data, and environment variables are used for configuration data that needs to be accessible globally.
+Scope: Local variables are confined to the shell session or script, while environment variables are available to any child processes.
+Usage: Local variables are used for temporary data, and environment variables are used for configuration data that needs to be accessible globally.
 
 #### Example of Using Both
 ```bash
