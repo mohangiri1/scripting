@@ -181,3 +181,90 @@ show_scope
 ./another_script.sh
 ```
 In another_script.sh, only env_var would be accessible, not local_var.
+
+# Understanding Environment Variables in Bash
+
+Environment variables are dynamic values that affect the behavior of processes on a computer. They are a key component in configuring the operating system and software applications.
+
+## What are Environment Variables?
+
+Environment variables are key-value pairs accessible from the shell and any subprocesses spawned from the shell. They are used to pass information into processes that are spawned from the shell.
+
+### Common Environment Variables
+
+- **`HOME`**: The current user's home directory.
+- **`PATH`**: Directories where executable programs are located.
+- **`USER`**: The name of the current user.
+- **`SHELL`**: The path to the current shell.
+
+## Setting Environment Variables
+
+You can set environment variables in several ways:
+
+### Using `export`
+
+```bash
+export MY_VAR="Hello, World!"
+```
+This command sets MY_VAR to “Hello, World!” and makes it available to any subprocesses.
+
+In a Single Command
+
+You can set an environment variable for a single command without affecting the global environment:
+```bash
+MY_VAR="Temporary Value" ./my_script.sh
+```
+In this case, MY_VAR is only available within my_script.sh.
+
+### Adding to .bashrc or .bash_profile
+
+To make environment variables persistent across sessions, add them to your .bashrc or .bash_profile file:
+```bash
+export MY_VAR="Persistent Value"
+```
+After editing, reload the file with:
+```bash
+source ~/.bashrc
+```
+### Accessing Environment Variables
+
+You can access environment variables using the $ prefix:
+```bash
+echo $MY_VAR
+```
+### Listing Environment Variables
+
+To list all environment variables, use the printenv or env command:
+```bash
+printenv
+```
+### Unsetting Environment Variables
+
+To remove an environment variable, use the unset command:
+```bash
+unset MY_VAR
+```
+### Using Environment Variables in Scripts
+
+Environment variables can be used to make scripts more flexible and adaptable to different environments.
+
+Example Script:
+```bash
+#!/bin/bash
+
+# Use an environment variable
+echo "The current user is: $USER"
+echo "Home directory is: $HOME"
+
+# Check if a custom variable is set
+if [ -z "$MY_VAR" ]; then
+  echo "MY_VAR is not set"
+else
+  echo "MY_VAR is set to $MY_VAR"
+fi
+```
+### Common Use Cases
+
+Configuring software: Many applications use environment variables for configuration (e.g., JAVA_HOME, PYTHONPATH).
+Path management: Modifying the PATH variable to include directories for executable files.
+Session-specific settings: Setting variables that are only relevant for a particular shell session.
