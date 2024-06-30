@@ -3,11 +3,13 @@ layout: default
 title: Exit Status
 ---
 
-In Bash scripting, an exit code is a numeric value that indicates the success or failure of a command or script.expand_more It's a way for programs to communicate their execution status to the shell or other scripts.expand_more
+In Bash scripting, an exit code is a numeric value that indicates the success or failure of a command or script. It's a way for programs to communicate their execution status to the shell or other scripts.
 
 ## Understanding Exit Status
-0 (Zero): Indicates successful execution.expand_more This is the convention for most commands and scripts.expand_more
-Non-Zero: Represents an error or abnormal termination. The specific meaning of a non-zero exit code can vary depending on the command. Some common examples:
+0 (Zero): Indicates successful execution. This is the convention for most commands and scripts.
+Non-Zero: Represents an error or abnormal termination. The specific meaning of a non-zero exit code can vary depending on the command. 
+
+### Some common examples:
 1: Often indicates a generic error.
 2: Can signal invalid user input or arguments.
 126: Permission errors.
